@@ -1,0 +1,30 @@
+<html>
+  <title>Project Donna</title>
+  <style>
+    div {
+      float: left;
+      width: 50%;
+        }
+  </style>
+  <body>
+    <h1 align= "center" style="background-color:#9F6">Stegnography</h1>
+    <form  method="POST" action="upload" enctype="multipart/form-data">
+    <div>
+        <h3>For Encryption</h3>
+      Please upload the image file to be Encrypted:<br><br>
+      <input type="file" name="inputFile" size="40"><br><br>
+      Enter the Message to be encrypted : <input type="text" name="msg">
+      <p><input type="submit" value="Upload"></p>
+      Download the Encrypted Image
+      <a href="path_to_file" download="proposed_file_name">Download</a>
+    </div>
+    <div>
+        <h3>For Decryption</h3>
+      Please upload the image file to be Decrypted:<br><br>
+      <input type="file" name="decrypt" size="40">
+      <p><input type="submit" value="Upload"></p>
+      Decrypted text is :
+    </div>
+    </form>
+  </body>
+</html>

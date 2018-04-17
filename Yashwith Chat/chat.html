@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Chat Bot</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+	<div id="chat">
+		<div id="chat-header">
+			<table id="message-header">
+				<td style="width: 10%"><img src="user.png" id="chat-icon"></td>
+				<td style="width: 85%"><div class="chat-name">Chat (Tap
+						to maximize)</div></td>
+			</table>
+		</div>
+		<div id="chat-content">
+			<div id="chat-message">
+				<div class="messageReceived">Hello. How was your Day?</div>
+			</div>
+			<div id="chat-footer">
+			<textarea rows="3" placeholder="Type a message"
+					id="chatBox"></textarea>
+			<button title="send" id="sendChat">
+					<img src="send.png" id="send-icon">
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
